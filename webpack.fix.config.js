@@ -8,15 +8,7 @@ module.exports = env => {
      */
     env = env || {};
 
-    /**
-     * Aggiunte necessarie per la gestione dei custom JavaProxy presenti nell'app
-     */
-    console.log("[WEBPACK] - Configurazione JavaProxy for android");
-    env.appComponents = env.appComponents || [];
-    env.appComponents.push(path.resolve(__dirname, "src", "app/shared/native/AndroidFirebaseMessaging/serviceFirebase.android.ts"));
-
     env.entries = env.entries || {};
-    env.entries.application = "./app/application.android";
 
     const config = webpackConfig(env);
     const platform = env && (env.android && "android" || env.ios && "ios" || env.platform);
