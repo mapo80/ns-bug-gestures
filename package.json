@@ -1,0 +1,42 @@
+{
+  "nativescript": {
+    "id": "org.nativescript.buggestures",
+    "tns-android": {
+      "version": "6.5.0"
+    },
+    "tns-ios": {
+      "version": "6.5.0"
+    }
+  },
+  "description": "NativeScript Application",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "repository": "<fill-your-repository-here>",
+  "scripts": {},
+  "dependencies": {
+    "@angular/animations": "~8.2.0",
+    "@angular/common": "~8.2.0",
+    "@angular/compiler": "~8.2.0",
+    "@angular/core": "~8.2.0",
+    "@angular/forms": "~8.2.0",
+    "@angular/platform-browser": "~8.2.0",
+    "@angular/platform-browser-dynamic": "~8.2.0",
+    "@angular/router": "~8.2.0",
+    "nativescript-angular": "8.21.0",
+    "@nativescript/theme": "~2.3.0",
+    "nativescript-material-bottomsheet": "^3.2.8",
+    "reflect-metadata": "~0.1.12",
+    "rxjs": "^6.5.0",
+    "tns-core-modules": "~6.5.0",
+    "zone.js": "0.9.1"
+  },
+  "devDependencies": {
+    "@angular/cli": "^8.3.25",
+    "@angular/compiler-cli": "~8.2.0",
+    "@ngtools/webpack": "~8.2.0",
+    "nativescript-dev-webpack": "~1.5.0",
+    "tns-platform-declarations": "~6.5.0",
+    "typescript": "~3.5.3"
+  },
+  "gitHead": "3153594d609d66fab71745c881d617ac1328ea1b",
+  "readme": "NativeScript Application"
+}
