@@ -8,6 +8,7 @@ platforms/
 *.js
 !ngcc.config.js
 !webpack.config.js
+!webpack.fix.config.js
 
 # Logs
 logs
